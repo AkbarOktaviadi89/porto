@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronDown, Phone, Instagram, ExternalLink, Award, Briefcase, GraduationCap, BookOpen, Search, Linkedin } from 'lucide-react';
+import { Menu, X, ChevronDown, Phone, Instagram, Briefcase, GraduationCap, BookOpen, Search, Linkedin } from 'lucide-react';
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -192,26 +192,6 @@ const Portfolio = () => {
     }
   ];
 
-  const awards = [
-    {
-      title: "Best Researcher Award",
-      organization: "Faculty of Engineering",
-      year: "2024",
-      description: "Recognition for outstanding research contributions in electrical engineering"
-    },
-    {
-      title: "Excellence in Teaching Award",
-      organization: "University",
-      year: "2023",
-      description: "Awarded for innovative teaching methods and student mentorship"
-    },
-    {
-      title: "Outstanding Paper Award",
-      organization: "IEEE ICIT Conference",
-      year: "2024",
-      description: "Best paper presentation at international conference"
-    }
-  ];
 
   const visibleProjects = showAllProjects ? research : research.slice(0, 3);
   const visiblePublications = showAllPublications ? publications : publications.slice(0, 3);
@@ -783,7 +763,7 @@ const Portfolio = () => {
                     <p className="text-xs text-gray-600 mt-1">Academic Updates</p>
                   </a>
 
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
+                  <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform" style={{ backgroundColor: '#800020' }}>
                       <BookOpen className="w-7 h-7 text-white" />
                     </div>
@@ -791,7 +771,7 @@ const Portfolio = () => {
                     <p className="text-xs text-gray-600 mt-1">Publications</p>
                   </a>
 
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
+                  <a href="https://www.researchgate.net/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform" style={{ backgroundColor: '#800020' }}>
                       <Search className="w-7 h-7 text-white" />
                     </div>
