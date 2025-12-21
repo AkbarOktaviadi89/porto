@@ -71,126 +71,151 @@ const Portfolio = () => {
 
   const education = [
     {
-      degree: "Doctor of Philosophy (Ph.D.)",
-      field: "Electrical Engineering",
-      institution: "Bandung Institute of Technology",
-      year: "2015 - 2019",
-      focus: "Control Systems and Automation"
+      degree: "Master’s Degree",
+      field: "Information Communication Technology",
+      institution: "International Islamic University of Malaysia",
+      year: "2013",
+      focus: "Information Communication Technology"
     },
     {
-      degree: "Master of Engineering (M.Eng.)",
-      field: "Electrical Engineering",
-      institution: "Sepuluh Nopember Institute of Technology",
-      year: "2010 - 2012",
-      focus: "Telecommunications Engineering"
-    },
-    {
-      degree: "Bachelor of Engineering (B.Eng.)",
-      field: "Electrical Engineering",
-      institution: "Gadjah Mada University",
-      year: "2005 - 2009",
-      focus: "Electronics and Instrumentation"
+      degree: "Bachelor’s Degree",
+      field: "Multimedia",
+      institution: "Universiti Utara Malaysia",
+      year: "2011",
+      focus: "Multimedia Studies"
     }
+
   ];
 
-  const research = [
-    {
-      title: "Intelligent Control System Optimization for Smart Grid",
-      type: "Research",
-      year: "2024",
-      description: "Development of adaptive control algorithms using machine learning for electricity distribution optimization in smart grids, improving energy efficiency by 25%.",
-      funding: "Ministry of Research, Technology and Higher Education",
-      status: "Ongoing",
-      collaborators: "MIT Energy Initiative, Local Power Authority",
-      image: "projects/alkautsar.png"
-    },
-    {
-      title: "IoT-Based Monitoring System for Industry 4.0",
-      type: "Research",
-      year: "2023",
-      description: "Design and implementation of IoT-based monitoring systems for manufacturing industries with cloud computing integration and real-time analytics.",
-      funding: "Research Institute",
-      status: "Completed",
-      collaborators: "Manufacturing Companies Consortium",
-      image: "projects/Azzahra.png"
-    },
-    {
-      title: "Renewable Energy Integration in Microgrid Systems",
-      type: "Research",
-      year: "2023",
-      description: "Study of renewable energy source integration (solar and wind) in microgrid systems focusing on system stability and efficiency.",
-      funding: "Higher Education Research Grant",
-      status: "Completed",
-      collaborators: "National Renewable Energy Laboratory",
-      image: "projects/PTBA.png"
-    },
-    {
-      title: "Smart Campus Technology Development",
-      type: "Community Service",
-      year: "2024",
-      description: "Community service program for smart campus technology implementation in secondary education institutions, including energy monitoring and security systems.",
-      funding: "Research Institute",
-      status: "Ongoing",
-      collaborators: "5 Partner Schools",
-      image: "projects/smart-campus.jpg"
-    },
-    {
-      title: "IoT and Arduino Training for Vocational Teachers",
-      type: "Community Service",
-      year: "2023",
-      description: "Intensive training program to enhance vocational school teachers' competencies in IoT and Arduino programming to support project-based learning.",
-      funding: "Research Institute",
-      status: "Completed",
-      collaborators: "Vocational Education Association",
-      image: "projects/arduino-training.jpg"
-    }
-  ];
+ const research = [
+  {
+    title: "Metaverse School at SMKN 1 Merbau Mataram",
+    type: "Research",
+    year: "2024",
+    description: "Development of a Metaverse School platform to improve the quality of learning at SMKN 1 Merbau Mataram.",
+    funding: "DRTPM Grant",
+    status: "Completed",
+    collaborators: "Universitas Teknokrat Indonesia",
+    image: "projects/merbau-mataram.jpeg"
+  },
+  {
+    title: "V-Commerce Technology 2.0: AI Integration in Metaverse Architecture for Intelligent NPCs as Virtual MSME Innovation",
+    type: "Research",
+    year: "2025",
+    description: "Design of AI-based V-Commerce 2.0 to enhance interaction and NPC intelligence in virtual MSMEs.",
+    funding: "DRTPM Grant",
+    status: "Completed",
+    collaborators: "Universitas Teknokrat Indonesia",
+    image: "projects/teknologi-vcommerce.jpg"
+  },
+  {
+    title: "Design of Electronic Visualization for Coronary Heart Disease Prevention Based on Augmented Reality",
+    type: "Research",
+    year: "2025",
+    description: "Development of educational media for coronary heart disease prevention using Augmented Reality technology.",
+    funding: "Universitas Teknokrat Indonesia Grant",
+    status: "Completed",
+    collaborators: "Universitas Teknokrat Indonesia",
+    image: "projects/rancang-visual.jpeg"
+  },
+  {
+    title: "Patient Behavior Modeling in Health-Based Applications Using Design Thinking",
+    type: "Research",
+    year: "2025",
+    description: "Analysis and modeling of user behavior in health applications through a Design Thinking approach.",
+    funding: "Universitas Teknokrat Indonesia Grant",
+    status: "Completed",
+    collaborators: "Universitas Teknokrat Indonesia",
+    image: "projects/model-perilaku.jpeg"
+  },
+  {
+    title: "Implementation of an Android-Based Student Admission Application Using the Waterfall Model in Vocational Schools",
+    type: "Research",
+    year: "2025",
+    description: "Implementation of an Android-based student admission application using the Waterfall method in vocational school environments.",
+    funding: "Universitas Teknokrat Indonesia Grant",
+    status: "Completed",
+    collaborators: "Universitas Teknokrat Indonesia",
+    image: "projects/penerapan-aplikasi.jpeg"
+  },
+  {
+    title: "Management of Organizational Information Systems",
+    type: "Research",
+    year: "2024",
+    description: "Development and optimization of organizational information systems to support digital governance.",
+    funding: "Universitas Teknokrat Indonesia Grant",
+    status: "Completed",
+    collaborators: "Universitas Teknokrat Indonesia",
+    image: "projects/pengelolaan-sistem.jpeg"
+  },
+  {
+    title: "Development of an Educational Game for Introducing Indonesian Conjunctions to Elementary School Students",
+    type: "Research",
+    year: "2025",
+    description: "Creation of an interactive educational game to introduce conjunctions to elementary school students.",
+    funding: "Universitas Teknokrat Indonesia Grant",
+    status: "Completed",
+    collaborators: "Universitas Teknokrat Indonesia",
+    image: "projects/pengembangan-game.jpeg"
+  },
+  {
+    title: "Design of AR-Based Electronic Visualization for Coronary Heart Disease Prevention",
+    type: "Research",
+    year: "2025",
+    description: "Development of an AR-based health education application to improve understanding of coronary heart disease risks.",
+    funding: "Universitas Teknokrat Indonesia Grant",
+    status: "Completed",
+    collaborators: "Universitas Teknokrat Indonesia",
+    image: "projects/pencegah-koroner.jpeg"
+  }
+];
 
-  const publications = [
-    {
-      title: "Machine Learning Approaches for Smart Grid Energy Management",
-      authors: "[Your Name], Smith, J., & Johnson, A.",
-      journal: "IEEE Transactions on Smart Grid",
-      year: "2024",
-      type: "Journal Article",
-      impact: "Q1 - IF: 8.96",
-      doi: "10.1109/TSG.2024.xxxxx"
-    },
-    {
-      title: "Adaptive Control Strategies for Renewable Energy Integration",
-      authors: "[Your Name] & Chen, L.",
-      journal: "Renewable Energy",
-      year: "2023",
-      type: "Journal Article",
-      impact: "Q1 - IF: 8.7",
-      doi: "10.1016/j.renene.2023.xxxxx"
-    },
-    {
-      title: "IoT Architecture for Industrial Automation: A Comprehensive Review",
-      authors: "[Your Name], Kumar, R., & Davis, M.",
-      journal: "Journal of Industrial Information Integration",
-      year: "2023",
-      type: "Journal Article",
-      impact: "Q2 - IF: 5.2",
-      doi: "10.1016/j.jii.2023.xxxxx"
-    },
-    {
-      title: "Real-time Monitoring System for Smart Manufacturing",
-      authors: "[Your Name] et al.",
-      conference: "IEEE International Conference on Industrial Technology",
-      year: "2024",
-      type: "Conference Paper",
-      location: "Singapore"
-    },
-    {
-      title: "Advanced Control Systems in Modern Engineering",
-      authors: "[Your Name] & Co-authors",
-      publisher: "Springer Nature",
-      year: "2023",
-      type: "Book Chapter",
-      isbn: "978-3-xxx-xxxxx-x"
-    }
-  ];
+const publications = [
+  {
+    title: "Improving Education Quality at SMKN 1 Merbau Mataram through Metaschool, Entrepreneurship, and Renewable Energy Trainers",
+    authors: "Qadhli Jafar Adrian, Bmm., M.I.T",
+    journal: "DRTPM Grant",
+    year: "2024",
+    type: "Community Service"
+  },
+  {
+    title: "Metaverse Workshop as a Digital Learning Medium for Students at SMAN 2 Natar, South Lampung",
+    authors: "Qadhli Jafar Adrian, Bmm., M.I.T",
+    journal: "DRTPM Grant",
+    year: "2025",
+    type: "Community Service"
+  },
+  {
+    title: "Community Service Program in Negara Batin Village, Way Kanan",
+    authors: "Qadhli Jafar Adrian, Bmm., M.I.T",
+    journal: "Universitas Teknokrat Indonesia",
+    year: "2024",
+    type: "Community Service"
+  },
+  {
+    title: "Basic Adobe Photoshop Training and AI Utilization at CV Barata Batik",
+    authors: "Qadhli Jafar Adrian, Bmm., M.I.T",
+    journal: "Industry Partner (CV Barata Batik)",
+    year: "2025",
+    type: "Community Service"
+  },
+  {
+    title: "Technology Implementation through Renewable Energy Trainer Kits at SMKN 1 Merbau Mataram",
+    authors: "Qadhli Jafar Adrian, Bmm., M.I.T",
+    journal: "Universitas Teknokrat Indonesia",
+    year: "2025",
+    type: "Community Service"
+  },
+  {
+    title: "Assessor for Multimedia Competency Vocational Examination Academic Year 2024/2025 at SMK Negeri 1 Negara Batin",
+    authors: "Qadhli Jafar Adrian, Bmm., M.I.T",
+    journal: "Universitas Teknokrat Indonesia",
+    year: "2025",
+    type: "Community Service"
+  }
+];
+
+
 
 
   const visibleProjects = showAllProjects ? research : research.slice(0, 3);
@@ -251,8 +276,8 @@ const Portfolio = () => {
                     key={item}
                     onClick={() => scrollToSection(sectionMap[item])}
                     className={`px-5 py-2.5 rounded-lg transition-all duration-300 text-sm font-semibold ${activeSection === sectionMap[item]
-                        ? 'text-white shadow-lg scale-105'
-                        : 'text-gray-700 hover:bg-gray-100'
+                      ? 'text-white shadow-lg scale-105'
+                      : 'text-gray-700 hover:bg-gray-100'
                       }`}
                     style={activeSection === sectionMap[item] ? { backgroundColor: '#800020' } : {}}
                   >
@@ -314,9 +339,9 @@ const Portfolio = () => {
               </h1>
 
               <div className="text-xl md:text-2xl text-gray-600 mb-8 space-y-2">
-                <p className="font-bold text-gray-800" style={{ fontSize: '1.75rem' }}>Dr. [Your Name], B.Eng., M.Eng.</p>
+                <p className="font-bold text-gray-800" style={{ fontSize: '1.75rem' }}>Qadhli Jafar Adrian, Bmm., M.I.T.</p>
                 <p className="font-semibold" style={{ color: '#800020' }}>Vice Dean, Faculty of Engineering</p>
-                <p className="text-lg">Electrical Engineering • Control Systems • IoT</p>
+                <p className="text-lg">User Experience • Human Computer Interaction • Game Development • Augmented Reality • Virtual Reality</p>
               </div>
 
               <div className="flex flex-wrap gap-4 mb-12">
@@ -339,7 +364,7 @@ const Portfolio = () => {
             </div>
 
             {/* MODIFIED: Photo section with professional geometric ornaments */}
-            <div className="flex justify-center lg:justify-end -mt-24">
+            <div className="flex justify-center lg:justify-end ">
               <div className="relative max-w-md w-full">
                 {/* MAIN BACKGROUND: Maroon half-box with radius */}
                 <div
@@ -350,7 +375,7 @@ const Portfolio = () => {
                     opacity: 1.15
                   }}
                 ></div>
-               
+
                 {/* Foto Profil - Professional with subtle shadow */}
                 <div className="relative transition-all duration-500" style={{ zIndex: 1 }}>
                   <img
@@ -358,7 +383,7 @@ const Portfolio = () => {
                     alt="Foto Profil"
                     className="w-full h-auto rounded-2xl object-cover"
                     style={{
-                      maxHeight: '600px',
+                      maxHeight: '500px',
                     }}
                   />
                   {/* Subtle border accent */}
@@ -391,16 +416,16 @@ const Portfolio = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="glass-maroon p-10 rounded-2xl text-white shadow-deep hover-lift transition-all duration-500 fade-in-on-scroll">
-              <h3 className="text-3xl font-bold mb-6">Dr. [Your Name], B.Eng., M.Eng.</h3>
+              <h3 className="text-3xl font-bold mb-6">Qadhli Jafar Adrian, Bmm., M.I.T.</h3>
               <div className="space-y-6 leading-relaxed text-lg">
                 <p className="text-gray-100">
-                  Lecturer and researcher in Electrical Engineering with a focus on control systems, industrial automation, and Internet of Things (IoT) technology. Over 15 years of experience in higher education and applied research.
+                  Lecturer and researcher in the field of Information Systems with a focus on data-based system development, user needs analysis, digital transformation, and Internet of Things (IoT) technology to support information integration. Has more than 15 years of experience in higher education, applied research, and information technology solution implementation.
                 </p>
                 <p className="text-gray-200">
-                  Currently serving as Vice Dean of the Faculty of Engineering, responsible for academic development, research, and institutional collaboration. Actively engaged in various research and community service projects oriented towards technology application for sustainable development.
+                  Currently serves as Associate Dean of the Faculty of Engineering, responsible for academic development, research, and institutional collaboration. Actively involved in various research projects and community service initiatives focused on the application of technology for sustainable development.
                 </p>
                 <p className="text-gray-200">
-                  Strong commitment to improving the quality of engineering education and facilitating technological innovations beneficial to society and industry.
+                  Strong commitment to enhancing the quality of engineering education and facilitating technological innovation that benefits society and industry.
                 </p>
               </div>
             </div>
@@ -478,7 +503,7 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20 fade-in-on-scroll">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Research & <span className="text-gradient">Community Service</span>
+              Research
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Contributions in research and community service for the development of science and technology
@@ -489,7 +514,7 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {visibleProjects.map((item, idx) => (
               <div key={idx} className="glass rounded-2xl shadow-elegant hover-lift cursor-pointer overflow-hidden group" onClick={() => setSelectedProject(item)}>
-                {/* Image Section */}
+        {/* Image Section */}
                 <div className="relative h-48 overflow-hidden bg-gray-100">
                   <img
                     src={item.image}
@@ -506,20 +531,33 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-
                 {/* Content Section */}
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-maroon-900 transition-colors" style={{ color: '#1a1a1a' }}>
+                  <div className="absolute top-4 left-4 right-4 pb-4 flex items-center justify-between">
+                    <span
+                      className="px-3 py-1.5 rounded-full text-white text-sm font-bold backdrop-blur-sm"
+                      style={{ backgroundColor: item.type === 'Research' ? '#800020' : '#a0002e' }}
+                    >
+                      {item.type}
+                    </span>
+                    <span className="px-3 py-1.5 rounded-full bg-white/90 backdrop-blur-sm text-gray-900 font-semibold text-sm">
+                      {item.year}
+                    </span>
+                  </div>
+
+                  <h3
+                    className="text-xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-maroon-900 transition-colors"
+                    style={{ color: '#1a1a1a' }}
+                  >
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 text-sm mb-4 leading-relaxed line-clamp-3">{item.description}</p>
+
+                  <p className="text-gray-600 text-sm mb-4 leading-relaxed line-clamp-3">
+                    {item.description}
+                  </p>
+
                   <div className="flex flex-col gap-2 pt-4 border-t border-gray-200">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs text-gray-500">Funding: {item.funding}</span>
-                      <span className={`text-xs font-semibold px-2 py-1 rounded ${item.status === 'Ongoing' ? 'bg-green-100 text-green-700' : 'bg-blue-100 text-blue-700'}`}>
-                        {item.status}
-                      </span>
-                    </div>
+
                     {item.collaborators && (
                       <p className="text-xs text-gray-500">
                         <span className="font-semibold">Collaborators:</span> {item.collaborators}
@@ -527,6 +565,7 @@ const Portfolio = () => {
                     )}
                   </div>
                 </div>
+
               </div>
             ))}
           </div>
@@ -605,15 +644,15 @@ const Portfolio = () => {
         </div>
       )}
 
-      {/* Publications Section */}
-      <section id="publications" className="py-24 bg-white">
+      {/* Community Service Section */}
+      <section id="Community Service" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20 fade-in-on-scroll">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Publications
+              Community Service
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Scholarly contributions and recognitions in the field of electrical engineering
+              Community service is an activity carried out by universities to assist and empower communities without compensation as part of the Tri Dharma.
             </p>
             <div className="w-24 h-1.5 mx-auto rounded-full mt-6" style={{ backgroundColor: '#800020' }}></div>
           </div>
@@ -622,7 +661,7 @@ const Portfolio = () => {
           <div className="mb-16">
             <h3 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
               <BookOpen className="w-8 h-8" style={{ color: '#800020' }} />
-              Selected Publications
+              Selected Community Service
             </h3>
             <div className="space-y-6">
               {visiblePublications.map((pub, idx) => (
@@ -666,7 +705,7 @@ const Portfolio = () => {
                   className="text-white px-8 py-3 rounded-lg font-semibold transition-all hover-lift shadow-lg"
                   style={{ backgroundColor: '#800020' }}
                 >
-                  View All Publications
+                  View All Community Service
                 </button>
               ) : (
                 <button
@@ -710,7 +749,7 @@ const Portfolio = () => {
                     </div>
                     <div>
                       <p className="text-gray-300 text-sm font-medium">Phone</p>
-                      <p className="text-white text-lg font-bold">0896-8424-5977</p>
+                      <p className="text-white text-lg font-bold">0812-9399-1682</p>
                     </div>
                   </a>
 
@@ -722,7 +761,7 @@ const Portfolio = () => {
                     </div>
                     <div>
                       <p className="text-gray-300 text-sm font-medium">Email</p>
-                      <p className="text-white text-lg font-bold">email@university.edu</p>
+                      <p className="text-white text-lg font-bold">qadhliadrian@teknokrat.ac.id</p>
                     </div>
                   </a>
 
@@ -735,7 +774,10 @@ const Portfolio = () => {
                     </div>
                     <div>
                       <p className="text-gray-300 text-sm font-medium">Office</p>
-                      <p className="text-white text-lg font-bold">Faculty of Engineering, Room 301</p>
+                      <p className="text-white text-lg font-bold">Jl. Zainal Abidin Pagaralam No.9-11 Labuhan Ratu, Bandar Lampung, Indonesia
+
+
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -747,7 +789,7 @@ const Portfolio = () => {
               <div className="glass p-8 rounded-2xl shadow-elegant border" style={{ borderColor: '#80002020' }}>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Connect With Me</h3>
                 <div className="grid grid-cols-2 gap-4 mb-6">
-                  <a href="https://www.linkedin.com/in/risma-oktaviani-23052b30a/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
+                  <a href="https://www.linkedin.com/in/qadhliadrian/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform" style={{ backgroundColor: '#800020' }}>
                       <Linkedin className="w-7 h-7 text-white" />
                     </div>
@@ -755,7 +797,7 @@ const Portfolio = () => {
                     <p className="text-xs text-gray-600 mt-1">Professional Network</p>
                   </a>
 
-                  <a href="https://instagram.com/Ribloozy.ovnn" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
+                  <a href="https://www.instagram.com/qadhlijafarel/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform" style={{ backgroundColor: '#800020' }}>
                       <Instagram className="w-7 h-7 text-white" />
                     </div>
@@ -763,7 +805,7 @@ const Portfolio = () => {
                     <p className="text-xs text-gray-600 mt-1">Academic Updates</p>
                   </a>
 
-                  <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
+                  <a href="https://scholar.google.com/citations?user=Y5MgRRYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform" style={{ backgroundColor: '#800020' }}>
                       <BookOpen className="w-7 h-7 text-white" />
                     </div>
@@ -771,7 +813,7 @@ const Portfolio = () => {
                     <p className="text-xs text-gray-600 mt-1">Publications</p>
                   </a>
 
-                  <a href="https://www.researchgate.net/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
+                  <a href="https://www.researchgate.net/profile/Qadhli-Jafar-Adrian" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl border-2 hover:shadow-lg transition-all group text-center" style={{ borderColor: '#800020' }}>
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform" style={{ backgroundColor: '#800020' }}>
                       <Search className="w-7 h-7 text-white" />
                     </div>
