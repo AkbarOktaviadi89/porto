@@ -419,13 +419,13 @@ const publications = [
               <h3 className="text-3xl font-bold mb-6">Qadhli Jafar Adrian, Bmm., M.I.T.</h3>
               <div className="space-y-6 leading-relaxed text-lg">
                 <p className="text-gray-100">
-                  Lecturer and researcher in the field of Information Systems with a focus on data-based system development, user needs analysis, digital transformation, and Internet of Things (IoT) technology to support information integration. Has more than 15 years of experience in higher education, applied research, and information technology solution implementation.
+                  Qadhli Jafar Adrian is an academic and researcher in engineering and computer science, currently serving as Vice Dean of the Faculty of Engineering and Computer Science, Head of the Center of Excellence (CoE), and Advisor of the Robotics Student Association. In these leadership roles, he actively promotes the development of research ecosystems, technological innovation, and student talent development in engineering, computing, and emerging digital technologies.
                 </p>
                 <p className="text-gray-200">
-                  Currently serves as Associate Dean of the Faculty of Engineering, responsible for academic development, research, and institutional collaboration. Actively involved in various research projects and community service initiatives focused on the application of technology for sustainable development.
+                  He has extensive experience in academic leadership, having served as Head of the Electrical Engineering Study Program (2020–2024) and currently as Head of the Civil Engineering Study Program (2025–2026). His cross-disciplinary leadership experience strengthens his approach to integrating digital technologies, engineering systems, and applied innovation within higher education, while fostering interdisciplinary collaboration.
                 </p>
                 <p className="text-gray-200">
-                  Strong commitment to enhancing the quality of engineering education and facilitating technological innovation that benefits society and industry.
+                  Qadhli Jafar Adrian’s research focuses on the Metaverse, Human–Computer Interaction (HCI), User Experience (UX), Augmented Reality (AR), and Virtual Reality (VR), particularly in applications for immersive education, virtual tourism (metatourism), and metaverse-based learning ecosystems (metaschool). His scholarly work has been published in national and international journals and conference proceedings, with citation records available on Google Scholar, reflecting his contributions to immersive technologies and experience-driven digital transformation.
                 </p>
               </div>
             </div>
