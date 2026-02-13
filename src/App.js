@@ -380,7 +380,7 @@ const publications = [
                 {/* Foto Profil - Professional with subtle shadow */}
                 <div className="relative transition-all duration-500" style={{ zIndex: 1 }}>
                   <img
-                    src="profile/fp.png"
+                    src="profile/pakqadh.png"
                     alt="Foto Profil"
                     className="w-full h-auto rounded-2xl object-cover"
                     style={{
