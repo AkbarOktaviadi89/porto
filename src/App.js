@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, Phone, Instagram, Briefcase, GraduationCap, BookOpen, Search, Linkedin } from 'lucide-react';
 
+// tes
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
